@@ -94,7 +94,7 @@ if 'bdist_wheel' in sys.argv and '--plat-name' not in sys.argv:
 
 setup(
     name='simuvex',
-    version='6.7.6.9',
+    version='6.7.7.27',
     description=' A symbolic execution engine for the VEX IR',
     url='https://github.com/angr/simuvex',
     packages=packages,
