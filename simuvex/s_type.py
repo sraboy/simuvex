@@ -718,8 +718,8 @@ ALL_TYPES = {
     'ptrdiff_t': SimTypeLong(False),
     'size_t': SimTypeLength(False),
     'ssize_t': SimTypeLength(True),
-    'uintptr_t' : SimTypeLong(False),
-
+    'ssize': SimTypeLength(False),
+    'uintptr_t': SimTypeLong(False),
     'string': SimTypeString(),
 }
 
